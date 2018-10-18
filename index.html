@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mike Aguirre</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <img src="assets/images/banner.png" alt="Banner" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutLink">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="portfolioLink">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contactLink">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Me Section -->
+        <div class="row" id="aboutRow">
+            <section class="col">
+                <div class="mainContent">
+                    <h2 class="headers">About Me</h2>
+                    <hr class="h2Line">
+                    <img id="photo" class="img-fluid float-left mr-md-3" alt="aboutpic" src="assets/images/me.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aspernatur laboriosam nemo tempore
+                        id? Quaerat
+                        blanditiis
+                        dolore, natus corrupti facilis fuga quidem repellat omnis aliquam, temporibus saepe porro
+                        consequuntur hic</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat dolorum veniam recusandae
+                        nisi, explicabo
+                        amet impedit
+                        ea asperiores ut? Sapiente nam deleniti necessitatibus itaque laborum, beatae quam ipsam
+                        veritatis velit!</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="row" id="portfolioRow">
+            <section class="col">
+                <div class="portfolioContent">
+                    <h2 class="headers">Portfolio</h2>
+                    <hr class="h2Line">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolioItems img-fluid">
+                                <a href="https://aguirre.github.io/Hangman/" target="_blank">
+                                    <img alt="" src="assets/images/hangman.jpg">
+                                    <div class="banner zindex-fixed">Hangman</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolioItems img-fluid">
+                                <a href="https://aguirre.github.io/unit-4-game/" target="_blank">
+                                    <img alt="" src="assets/images/rpg.jpg">
+                                    <div class="banner zindex-fixed">RPG Game</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolioItems img-fluid">
+                                <a href="https://aguirre.github.io/TriviaGame/" target="_blank">
+                                    <img alt="" src="assets/images/trivia.jpg">
+                                    <div class="banner zindex-fixed">Trivia Game</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolioItems img-fluid">
+                                <a href="https://aguirre.github.io/GiphyAPI/" target="_blank">
+                                    <img alt="" src="assets/images/giphy.jpg">
+                                    <div class="banner zindex-fixed">Giphy API</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolioItems img-fluid">
+                                <a href="https://aguirre.github.io/RPS-Multiplayer/" target="_blank">
+                                    <img alt="" src="assets/images/rps.jpg">
+                                    <div class="banner zindex-fixed">Rock Paper Scissors!</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolioItems img-fluid">
+                                <a href="https://lindsayt13.github.io/Project_1/" target="_blank">
+                                    <img alt="" src="assets/images/portfolio.jpg">
+                                    <div class="banner zindex-fixed">Fore!Cast</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="row" id="contactRow">
+            <section class="col">
+                <div class="contactContainer">
+                    <h2 class="headers">Contact</h2>
+                    <hr class="h2Line">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" aria-describedby="typeyourname"
+                                placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="email@mail.com">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" placeholder="Your Message" rows="8"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/aguirre" target="_blank"><img class="icons" src="assets/images/git.png" alt="GitHub"></a>
+            <a href="https://linkedin.com/in/maguirre13/" target="_blank"><img class="icons" src="assets/images/linked.png"
+                    alt="LinkedIn"></a>
+            <a href="https://stackoverflow.com/users/10147516/michael-aguirre" target="_blank"><img class="icons" src="assets/images/stack.png"
+                    alt="Stack Overflow"></a>
+            <hr class="h2Line">
+            <div>MIKE AGUIRRE ©2018</div>
+        </div>
+    </footer>
+
+    <!-- Javascript Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
