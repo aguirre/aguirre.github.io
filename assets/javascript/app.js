@@ -40,3 +40,11 @@ $("#contactLink").on("click", function() {
 $(document).ready(function() {
   $('[data-toggle="tooltip"]').tooltip();
 });
+
+$(".scale-tilt").tilt({
+  scale: 1.2
+});
+
+$(".keep-tilt").tilt({
+  reset: false
+});
