@@ -42,7 +42,7 @@ $(document).ready(function() {
 });
 
 $(".scale-tilt").tilt({
-  scale: 1.1
+  scale: 0.95
 });
 
 $(".keep-tilt").tilt({
